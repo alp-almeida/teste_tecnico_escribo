@@ -1,3 +1,4 @@
+
 bool ehDivisivel(int num, int divisor){
   return num%divisor == 0;
 }
@@ -13,8 +14,8 @@ int contarMultiplosDe3e5(int entrada){
 }
 
 void main() {
-  int res10 = contarMultiplosDe3e5(10);
-  print("Entrada 10 , Saída $res10");
-  int res11 = contarMultiplosDe3e5(11);
-  print("Entrada 11 , Saída $res11");
+  var res10 = contarMultiplosDe3e5(10);
+  print("Teste com 10 $res10");
+  var res11 = contarMultiplosDe3e5(11);
+  print("Teste com 11 $res11");
 }
